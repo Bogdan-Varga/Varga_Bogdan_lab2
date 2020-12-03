@@ -1,4 +1,4 @@
-﻿@model Varga_Bogdan_lab2.Models.LibraryViewModels.PublisherIndexData
+﻿@model LibraryModel.Models.LibraryViewModels.PublisherIndexData
 
 @{ ViewData["Title"] = "Publishers"; }
 
@@ -44,8 +44,7 @@
         <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
         <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
     </td>
-</tr>
-}
+</tr>}
     </tbody>
 </table>
 
@@ -81,8 +80,7 @@
         <td>
             @item.Price
         </td>
-    </tr>
-}
+    </tr>}
 
                 </table>
 
@@ -105,30 +103,26 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.OrderDate)
                         </td>
-                    </tr>
-}
-                                    </table>
-}}
+                    </tr>}
+                                    </table>}}
 @if (Model.Orders != null)
 {
-    <h3>
-        Customers that have ordered the Selected Book
-    </h3>
-    <table class="table">
-        <tr>
-            <th>Name</th>
-            <th>Order Date</th>
-        </tr>
-        @foreach (var item in Model.Orders)
-        {
-            <tr>
-                <td>
-                    @item.Customer.Name
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.OrderDate)
-                </td>
-            </tr>
-        }
-    </table>
-}
+<h3>
+    Customers that have ordered the Selected Book
+</h3>
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Order Date</th>
+                    </tr>
+                    @foreach (var item in Model.Orders)
+                    {
+    <tr>
+        <td>
+            @item.Customer.Name
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+    </tr>}
+                </table>}

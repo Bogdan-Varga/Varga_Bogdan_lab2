@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Varga_Bogdan_lab2.Data;
+using LibraryModel.Data;
 
 namespace Varga_Bogdan_lab2.Migrations
 {

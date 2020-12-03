@@ -5,10 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Varga_Bogdan_lab2.Models;
+using LibraryModel.Models;
 using Microsoft.EntityFrameworkCore;
-using Varga_Bogdan_lab2.Data;
-using Varga_Bogdan_lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
+using LibraryModel.Models.LibraryViewModels;
 
 namespace Varga_Bogdan_lab2.Controllers
 {

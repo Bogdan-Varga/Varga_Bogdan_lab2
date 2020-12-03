@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LibraryModel.Models;
 
-namespace Varga_Bogdan_lab2.Models.LibraryViewModels
+
+namespace LibraryModel.Models.LibraryViewModels
 {
     public class PublisherIndexData
     {

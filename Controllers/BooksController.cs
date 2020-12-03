@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Varga_Bogdan_lab2.Data;
-using Varga_Bogdan_lab2.Models;
+using LibraryModel.Data;
+using LibraryModel.Models;
 
 namespace Varga_Bogdan_lab2.Controllers
 {
