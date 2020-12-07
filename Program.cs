@@ -7,7 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using Varga_Bogdan_lab2.Data;
+using LibraryModel.Data;
+using LibraryModel.Models;
 
 namespace Varga_Bogdan_lab2
 {
